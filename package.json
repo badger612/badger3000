@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Ross",
   "dependencies": {
+    "formik": "^2.1.5",
     "gatsby": "^2.20.12",
     "gatsby-background-image": "^1.1.1",
     "gatsby-cli": "^2.12.87",
@@ -21,7 +22,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
-    "react-images": "^1.0.0"
+    "react-images": "^1.0.0",
+    "yup": "^0.29.3"
   },
   "keywords": [
     "gatsby"
