@@ -1,8 +1,8 @@
 {
   "private": false,
-  "name": "example-company-website-gatsby-sanity-combo-studio",
-  "version": "1.0.0",
-  "author": "Sanity <hello@sanity.io>",
+  "name": "badger3000",
+  "version": "1.1.0",
+  "author": "Kyle Ross <kyle@badger3000.com>",
   "engines": {
     "node": "10.x"
   },
