@@ -1,23 +1,17 @@
 {
   "private": false,
-  "name": "badger3000",
+  "name": "badger3000-studio",
   "version": "1.1.0",
   "author": "Kyle Ross <kyle@badger3000.com>",
   "engines": {
     "node": "10.x"
   },
   "scripts": {
-    "deploy": "npm run graphql-deploy && npm run sanity-deploy",
+    "dev": "sanity start",
     "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
-    "graphql-deploy": "sanity graphql deploy --playground",
-    "sanity-deploy": "sanity deploy",
-    "lint": "eslint .",
-    "start": "sanity start",
     "build": "sanity build",
-    "now-build": "npm run build",
-    "workers-start": "npm run build && wrangler preview --watch",
-    "workers-deploy": "npm run build && wrangler publish",
-    "now-dev": "npm run build",
+    "graphql-deploy": "sanity graphql deploy --playground",
+    "lint": "eslint .",
     "test": "sanity check"
   },
   "dependencies": {

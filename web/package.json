@@ -1,5 +1,5 @@
 {
-  "name": "badger3000",
+  "name": "badger3000-web",
   "description": "Gatsby site",
   "version": "1.1.0",
   "author": "Kyle Ross",
@@ -41,7 +41,7 @@
     "build": "gatsby build",
     "deploy": "npm run now-deploy",
     "develop": "gatsby develop",
-    "empty-cache": "gatsby clean",
+    "clean-cache": "gatsby clean",
     "now-build": "npm run build",
     "now-dev": "npm run build",
     "start": "npm run develop",
