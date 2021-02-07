@@ -1,0 +1,34 @@
+{
+  "name": "badger3000",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Kyle Ross <odbadger816@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.3.3",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.3.3",
+    "@sanity/default-layout": "^2.3.3",
+    "@sanity/default-login": "^2.2.6",
+    "@sanity/desk-tool": "^2.3.3",
+    "@sanity/vision": "^2.2.6",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://badger612@github.com/badger612/badger3000.git"
+  }
+}
