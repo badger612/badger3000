@@ -4,7 +4,11 @@ node_modules
 yarn-error.log
 package-lock.json
 yarn.lock
+.env.development
 
 # Build directory
-/public
 .DS_Store
+/public
+/studio/dist/static/js/app.bundle.js
+/studio/dist/static/js/vendor.bundle.js
+/studio/dist/index.html

@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 module.exports = {
   siteMetadata: {
     title: 'Kyle Ross - Web Developer',
@@ -31,6 +34,15 @@ module.exports = {
           purpose: `any maskable`,
         },
         orientation: 'portrait', // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: 'gatsby-source-sanity',
+      options: {
+        projectId: process.env.SANITY_PROJECT_ID,
+        dataset:  process.env.SANITY_DATASET,
+        token: process.env.SANITY_TOKEN,
+        watchMode: true,
       },
     },
     {
